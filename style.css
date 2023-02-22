@@ -1,0 +1,43 @@
+.body{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.nav{
+    background-color: rgb(117, 15, 233);
+    width: 100%;
+    height: 50px;
+    margin-top: -10px;
+}
+.nav li{
+    list-style: none;
+    width: 160px;
+    height: 50px;
+    float: left;
+    background-color: rgb(32, 151, 236);
+    margin-left: 10px;
+    text-align: center;
+    line-height: 50px;
+}
+.nav li a{
+    color: white;
+    text-decoration: none;
+}
+.nav{
+    margin-left: -32px;
+}
+.nav li:hover{
+    cursor: pointer;
+    background-color: black;
+}
+.nav ul li{
+    margin-left: -40px;
+    margin-top: 0px;
+    display: none;
+}
+.nav li:hover ul li{
+    display: block;
+    color: white;
+}
+
